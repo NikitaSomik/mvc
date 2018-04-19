@@ -12,15 +12,15 @@ return [
 		'action' => 'login'
 	],
 
-	// 'account/register' => [
-	// 	'controller' => 'account',
-	// 	'action' => 'login'
-	// ],
+	'account/register' => [
+		'controller' => 'account',
+		'action' => 'login'
+	],
 
-	// 'news/show' => [
-	// 	'controller' => 'news',
-	// 	'action' => 'show'
-	// ],
+	'news/show' => [
+		'controller' => 'news',
+		'action' => 'show'
+	],
 
 ];
 
