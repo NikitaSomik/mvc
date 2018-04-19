@@ -1,0 +1,11 @@
+AddDefaultCharset utf-8
+
+# Вкл наш модуль конфигураций
+# Делаем проверку это не директория
+# и не файл
+# то перенаправляем наш запрос на index.php
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php
